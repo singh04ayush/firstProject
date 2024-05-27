@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="AYUSH SINGH">
+        <meta name="description" content="contact page for the little food shop website">
+        <title>contactUs</title>
+        <link rel="icon" href="Restaurant-Logo-PNG-Image-HD.png" type="image/x-icon">
+    </head>
+    <body>
+
+        <header>
+            <h1>Contact Us</h1>
+            <nav>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#aboutLFS">About LFS</a></li>
+                <li><a href="index.html#ourMenu">Our Menu</a></li>
+                <li><a href="storehours.html">Store Hours</a></li>
+            </nav>
+            <figure>
+                <img src="R.jpg" title="Blue mark is our shop" width="960" height="540">
+                <figcaption>Our Location On Map</figcaption>
+            </figure>
+        </header>
+
+        <main>
+            <h1>Our Contact Form</h1>
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required autocomplete="on">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    </p>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea name="message" id="message" rows="10" cols="30" placeholder="Type Your Message Here"></textarea>
+                </fieldset>
+                <br>
+                <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Send</button>
+                <button type="reset">Reset</button>
+            </form>
+            <h1>Our Location</h1>
+            <address>I-1193 Gamma IV, 2nd Street <br>Gr.Noida, GBN, 201309</address>
+            <ul>
+                <li>Phone: <a href="tel:+5555555555">555-555-5555</a></li>
+                <li><a href="R.jpg" download="">Download Offline Map</a></li>
+                <li><a href="https://www.google.co.in/maps">Go To Navigation</a></li>
+            </ul>
+            <a href="#">Back to Top</a>
+        </main>
+
+        <hr>
+        
+        <footer>
+            <p>Copyright &copy; The Little Food Shop</p>
+        </footer>
+
+    </body>
+</html>
